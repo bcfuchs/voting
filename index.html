@@ -52,9 +52,56 @@
       </ul>
     </div>
   </div>
-  <div class="container">
-    <h1> this is where the boxes for your content will be</h1>
-    <h3>(among other things, of course)</h3>
-  </div>
+    <div class="col-lg-3 col-offset-1">
+      <h2 class="text-left">Maybe this is where a scroll spy will be...</h2>
+      <h4>(among other things, of course)</h4>
+      <h4>or a list of the things you've approved and denied</h4>
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+  
+    <div class="col-lg-7">
+      <div class="accordion" id="collapseHacks">
+        <div class="accordion-group">
+          <div class="accordion-heading" id="collapseOne">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#collapseHacks" data-target="#CollapseOne" href="#collapseOne">Hackathon Project #1</a>
+          </div>
+          <div id="collapseOne" class="accordion-body collapse in">
+            <div class="accordion-inner">
+              Here is tons and tons and tons and tons and tons and tons and tons and tons and tons and tons and tons of content! 
+              <br> Yay!
+              <br> Isn't this just awesome?
+            </div>
+          </div>
+        </div>
+      </div>    
+    </div>  
+
+
+<script>
+$(document).ready(function(){
+  $('.collapse').collapse();
+}
+</script>
 </body>
 </html>
+
+<!-- 
+          <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" data-target="#accordion2" href="#collapseTwo">Hackathon Project #2</a>
+          </div>
+          <div id="collapseTwo" class="accordion-body collapse">
+            <div class="accordion-inner">...
+            </div>
+          </div>
+        </div>
+        <div class="accordion-group">
+          <div class="accordion-heading">
+            <a class="accordion-toggle" data-toggle="#collapseThree" data-parent="#accordion2" data-target="#accordion2" id="#collapseThree">Hackathon Project #3</a>
+          </div>
+          <div id="collapseThree" class="accordion-body collapse">
+            <div class="accordion-inner">...
+            </div>
+          </div>
+        </div>
+      -->
